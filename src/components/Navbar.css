@@ -1,0 +1,34 @@
+/* .user-link & nav-link will be different from each other */
+
+#navbar {
+    padding: 17.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list, .user-options {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link, .user-link {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2c2e2f;
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.nav-link:hover, .user-link:hover {
+    color: #004f47;
+}
+
+.sale, .sale:hover {
+    color: #913025;
+}

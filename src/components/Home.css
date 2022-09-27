@@ -1,0 +1,60 @@
+#intro {
+    display: flex;
+    justify-content: space-between;
+    height: 69.5vh;
+}
+
+#intro-img {
+    display: block;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+#intro-card {
+    max-width: 39.2%;
+    margin-left: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f3ee;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+    color: #2c2e2f;
+}
+
+#card-container > h1 {
+    font-size: 45px;
+    line-height: 1.4;
+}
+
+#card-container > p {
+    font-size: 21px;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.shop-now {
+    border: none;
+    background-color: #004f47;
+    color: white;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.shop-now:hover {
+    cursor: pointer;
+}
+
+#lineup {
+    width: 66vw;
+    margin: auto;
+    display: flex;
+}
