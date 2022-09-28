@@ -1,5 +1,5 @@
 /* Common */
-.title {
+h1, h3, h5, p {
     line-height: 1.4;
 }
 
@@ -157,10 +157,76 @@
     flex-direction: row;
     width: 66vw;
     margin: auto;
-    align-items: center;
-    justify-content: center;
+    height: 45vh;
+    justify-content: space-between;
 }
 
-#comparsion-card{
+#comparsion-card {
+    background-color: #f7f3ee;
+    height: 100%;
+    max-width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#comparsion-card > h3 {
+    margin: 7.5px 0 15px 0;
+}
+
+#comparsion-card > p {
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+#comparison-img {
+    display: block;
+    height: 100%;
+    max-width: 49%;
+}
+
+#comparison-img > img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Setups */
+#setups-container {
+    display: flex;
+    flex-direction: column;
+    width: 66vw;
+    margin: 100px auto;
+    align-items: flex-start;
+}
+
+#setups {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+#setups > a {
+    margin-right: 30px;
+}
+
+.setup {
     background-color: #f7f3ee;
 }
+
+.setup:hover {
+    /* color changes on hover */
+}
+
+.setup > img {
+    object-fit: cover;
+    width: 390px;
+    height: 400px;
+}
+
+.setup > div {
+    padding: 20px;
+}
+
