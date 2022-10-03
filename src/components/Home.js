@@ -13,9 +13,7 @@ const Home = () => {
         />
         <div id="intro-card">
           <div id="card-container">
-            <h1 className="title">
-              Make perfect coffee with the touch of a button
-            </h1>
+            <h1>Make perfect coffee with the touch of a button</h1>
             <p className="subtitle">
               Finally, enjoy convenience without compromise
             </p>
@@ -40,7 +38,7 @@ const Home = () => {
                 alt="Ratio model six"
               />
               <h5 className="mini-subtitle">SCA AWARD WINNER</h5>
-              <h3>Ratio Six</h3>
+              <h2>Ratio Six</h2>
               <button className="btn-white">Shop Six</button>
             </div>
           </Link>
@@ -114,11 +112,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div id="comparison-container">
         <div id="comparsion-card">
           <h5 className="mini-subtitle">THE RIGHT RATIO FOR YOU</h5>
-          <h3 className="title">Compare Ratio machines.</h3>
+          <h3>Compare Ratio machines.</h3>
           <p>
             Whatever Ratio model you choose is the product of our closest
             attention to detail and commitment to incredible coffee. We've made
@@ -126,11 +123,128 @@ const Home = () => {
           </p>
           <button className="btn-green">Compare Models</button>
         </div>
-        <div id="comparsion-img">
+        <div id="comparison-img">
           <img
             src="https://cdn.shopify.com/s/files/1/0215/8508/files/compare-ratio-machines-six-eight-thermal_720x.jpg?v=1647458372"
             alt="ratio models"
           />
+        </div>
+      </div>
+      <div id="setups-container">
+        <h1>Complete your ratio setup.</h1>
+        <div id="setups">
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/files/Ratio_Grinder_Collection_Tile_540x.jpg?v=1641408511"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Grinders</h2>
+              </div>
+            </div>
+          </Link>
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/files/Ratio_Accessories_Collection_Tile_Spring_540x.jpg?v=1647458755"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Ratio Accessories</h2>
+              </div>
+            </div>
+          </Link>
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/files/Ratio_Mugs_Cups_Collection_Tile_540x.jpg?v=1641407815"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Mugs & Cups</h2>
+              </div>
+            </div>
+          </Link>
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/files/Ratio_Brewing_Collection_Tile_Spring_540x.jpg?v=1647459448"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Manual Brewing</h2>
+              </div>
+            </div>
+          </Link>
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/files/ratio-accessories-tile-image_540x.jpg?v=1640201218"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Filters</h2>
+              </div>
+            </div>
+          </Link>
+          <Link>
+            <div className="setup">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0215/8508/collections/LUCCA-A53-Mini-Walnut-Espresso-Machine-Eureka-Mignon-XL-White-Grinder-04_540x.jpg?v=1636666752"
+                alt=""
+              />
+              <div>
+                <h5 className="mini-subtitle">SHOP</h5>
+                <h2>Espreso Machines</h2>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div id="latest">
+        <h1>The latest from the journal.</h1>
+        <div id="events">
+          <div className="event">
+            <img
+              src="//cdn.shopify.com/s/files/1/0215/8508/articles/Ratio_Feb_22_-_Matte_Black_Eight_Hearth_1_800x550_crop_center.jpg?v=1664211228"
+              alt=""
+            />
+            <p className="mini-subtitle">September 2022</p>
+            <h5>Every 10th Ratio Eight Is Free...</h5>
+          </div>
+          <div className="event">
+            <img
+              src="//cdn.shopify.com/s/files/1/0215/8508/articles/RATIO_JEN_043_websize_800x550_crop_center.jpg?v=1659035688"
+              alt=""
+            />
+            <p className="mini-subtitle">August 2022</p>
+            <h5>Service Design with Jen Macias</h5>
+          </div>
+          <div className="event">
+            <img
+              src="//cdn.shopify.com/s/files/1/0215/8508/articles/PushXPull_20191113_0213_800x550_crop_center.jpg?v=1654821419"
+              alt=""
+            />
+            <p className="mini-subtitle">June 2022</p>
+            <h5>Christopher Hall's Coffee Conversion</h5>
+          </div>
+          <div className="event">
+            <img
+              src="//cdn.shopify.com/s/files/1/0215/8508/articles/2022-05-20_Bigwig_Donuts-1025782_websize_800x550_crop_center.jpg?v=1653341952"
+              alt=""
+            />
+            <p className="mini-subtitle">May 2022</p>
+            <h5>
+              It'd be better for you ti try abd fail, than never to do anything
+              at all.
+            </h5>
+          </div>
         </div>
       </div>
     </>
