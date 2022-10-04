@@ -8,7 +8,7 @@ const Home = () => {
       <div id="intro">
         <img
           id="intro-img"
-          src="https://cdn.shopify.com/s/files/1/0215/8508/files/RATIO_JEN_022_websize_1296x.jpg?v=1659035989"
+          src="https://cdn.shopify.com/s/files/1/0215/8508/files/Ratio_Feb_22_-_Matte_Black_Eight_Hearth_1_1296x.jpg?v=1664210967"
           alt="ratio coffee"
         />
         <div id="intro-card">
@@ -37,7 +37,7 @@ const Home = () => {
                 src="//cdn.shopify.com/s/files/1/0215/8508/products/ratio6-black-A3_360x.jpg?v=1628633076 360w"
                 alt="Ratio model six"
               />
-              <h5 className="mini-subtitle">SCA AWARD WINNER</h5>
+              <h3 className="mini-subtitle">SCA AWARD WINNER</h3>
               <h2>Ratio Six</h2>
               <button className="btn-white">Shop Six</button>
             </div>
@@ -211,39 +211,59 @@ const Home = () => {
         <h1>The latest from the journal.</h1>
         <div id="events">
           <div className="event">
-            <img
-              src="//cdn.shopify.com/s/files/1/0215/8508/articles/Ratio_Feb_22_-_Matte_Black_Eight_Hearth_1_800x550_crop_center.jpg?v=1664211228"
-              alt=""
-            />
-            <p className="mini-subtitle">September 2022</p>
-            <h5>Every 10th Ratio Eight Is Free...</h5>
+            <Link>
+              <img
+                src="//cdn.shopify.com/s/files/1/0215/8508/articles/Ratio_Feb_22_-_Matte_Black_Eight_Hearth_1_800x550_crop_center.jpg?v=1664211228"
+                alt=""
+              />
+            </Link>
+
+            <p>September 2022</p>
+            <Link>
+              <h3>Every 10th Ratio Eight Is Free...</h3>
+            </Link>
           </div>
           <div className="event">
-            <img
-              src="//cdn.shopify.com/s/files/1/0215/8508/articles/RATIO_JEN_043_websize_800x550_crop_center.jpg?v=1659035688"
-              alt=""
-            />
-            <p className="mini-subtitle">August 2022</p>
-            <h5>Service Design with Jen Macias</h5>
+            <Link>
+              <img
+                src="//cdn.shopify.com/s/files/1/0215/8508/articles/RATIO_JEN_043_websize_800x550_crop_center.jpg?v=1659035688"
+                alt=""
+              />
+            </Link>
+
+            <p>August 2022</p>
+            <Link>
+              <h3>Service Design with Jen Macias</h3>
+            </Link>
           </div>
           <div className="event">
-            <img
-              src="//cdn.shopify.com/s/files/1/0215/8508/articles/PushXPull_20191113_0213_800x550_crop_center.jpg?v=1654821419"
-              alt=""
-            />
-            <p className="mini-subtitle">June 2022</p>
-            <h5>Christopher Hall's Coffee Conversion</h5>
+            <Link>
+              <img
+                src="//cdn.shopify.com/s/files/1/0215/8508/articles/PushXPull_20191113_0213_800x550_crop_center.jpg?v=1654821419"
+                alt=""
+              />
+            </Link>
+
+            <p>June 2022</p>
+            <Link>
+              <h3>Christopher Hall's Coffee Conversion</h3>
+            </Link>
           </div>
           <div className="event">
-            <img
-              src="//cdn.shopify.com/s/files/1/0215/8508/articles/2022-05-20_Bigwig_Donuts-1025782_websize_800x550_crop_center.jpg?v=1653341952"
-              alt=""
-            />
-            <p className="mini-subtitle">May 2022</p>
-            <h5>
-              It'd be better for you ti try abd fail, than never to do anything
-              at all.
-            </h5>
+            <Link>
+              <img
+                src="//cdn.shopify.com/s/files/1/0215/8508/articles/2022-05-20_Bigwig_Donuts-1025782_websize_800x550_crop_center.jpg?v=1653341952"
+                alt=""
+              />
+            </Link>
+
+            <p>May 2022</p>
+            <Link>
+              <h3>
+                It'd be better for you ti try abd fail, than never to do
+                anything at all.
+              </h3>
+            </Link>
           </div>
         </div>
       </div>

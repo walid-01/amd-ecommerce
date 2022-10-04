@@ -230,3 +230,41 @@ h1, h3, h5, p {
     padding: 20px;
 }
 
+/* Latest events */
+#latest {
+    width: 66vw;
+    border-top: #f7f3ee 1px solid;
+    border-bottom: #f7f3ee 1px solid;
+    padding: 100px 0;
+    margin: 60px auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.event > p {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    padding: 15px 0 5px 0;
+}
+
+.event img {
+    object-fit: cover;
+    width: 290px;
+    height: 190px;
+}
