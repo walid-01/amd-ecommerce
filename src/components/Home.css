@@ -30,7 +30,7 @@ h1, h3, h5, p {
 }
 
 .btn-green:hover {
-    /* Will be changed to animation */
+    /* fix: Will be changed to animation */
     background-color: white;
     color: #004f47;
 }
@@ -217,7 +217,7 @@ h1, h3, h5, p {
 }
 
 .setup:hover {
-    /* color changes on hover */
+    /*fix: color changes on hover */
 }
 
 .setup > img {
