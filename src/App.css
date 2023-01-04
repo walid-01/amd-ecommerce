@@ -1,14 +1,20 @@
 .App {
     font-family: 'Proxima Nova', sans-serif;
+    /* background-color: black; */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #2c2e2f;
+    /* color: white; # */
 }
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #fe6f29;
 }

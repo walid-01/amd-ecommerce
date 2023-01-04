@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: #f7f3ee 1px solid;
+    border-bottom: #fe6f29 1px solid;
     padding-bottom: 50px;
 }
 
@@ -57,7 +57,7 @@
     border: none;
     padding: 5px;
     font-size: 15px;
-    color: #004f47;
+    color: #fe6f29;
     background-color: white;
     cursor: pointer;
     font-weight: 600;

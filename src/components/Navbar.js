@@ -6,40 +6,32 @@ const Navbar = () => {
     <nav id="navbar">
       <Link to="/">
         <img
-          src="//cdn.shopify.com/s/files/1/0215/8508/files/ratio-logo-black_140x.png?v=1617041188"
-          alt="RATIO Logo"
+          id="page-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg"
+          alt="AMD Logo"
         />
       </Link>
       <ul className="nav-list">
         <li className="nav-item">
-          <Link to="/collections/machines" className="nav-link">
-            Machines
+          <Link to="/" className="nav-link">
+            Home
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/collections/accessories" className="nav-link">
-            Accessories
+          <Link to="/all" className="nav-link">
+            Processors
           </Link>
         </li>
+
         <li className="nav-item">
-          <Link to="/collections/shop-all" className="nav-link">
-            Shop All
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/sale" className="nav-link sale">
-            Sale
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/journal" className="nav-link">
-            Journal
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/about" className="nav-link">
+          <a
+            href="https://www.amd.com/en/corporate.html"
+            className="nav-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             About
-          </Link>
+          </a>
         </li>
       </ul>
       <ul className="user-options">

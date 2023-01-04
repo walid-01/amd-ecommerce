@@ -11,24 +11,16 @@ const Footer = () => {
           <h3 className="list-name">Shop</h3>
           <ul>
             <li>
-              <Link to="/products/ratio-six">Ratio Six</Link>
+              <Link to="/ryzen-five">AMD Ryzen™ 5</Link>
             </li>
             <li>
-              <Link to="/products/ratio-eight">Ratio Eight</Link>
+              <Link to="/ryzen-seven">AMD Ryzen™ 7</Link>
             </li>
             <li>
-              <Link to="/products/ratio-eight-thermal-set">
-                Ratio Eight Thermal Set
-              </Link>
+              <Link to="/ryzen-nine">AMD Ryzen™ 9</Link>
             </li>
             <li>
-              <Link to="/collections/espresso-machines">Espresso Machines</Link>
-            </li>
-            <li>
-              <Link to="/collections/accessories">Accessories</Link>
-            </li>
-            <li>
-              <Link to="/collections/shop">Shop All</Link>
+              <Link to="/all">Shop All</Link>
             </li>
           </ul>
         </div>
@@ -36,92 +28,154 @@ const Footer = () => {
           <h3 className="list-name">Learn</h3>
           <ul>
             <li>
-              <Link to="/blogs/journal/how-to-brew-with-ratio-eight">
-                How to brew with Ratio Eight
-              </Link>
+              <a
+                href="https://www.amd.com/en/processors/ryzen-compatible-memory"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AMD Ryzen™ Compatible Memory
+              </a>
             </li>
             <li>
-              <Link to="/blogs/journal/ratio-cold-brew">
-                Cold brew on the Ratio Eight
-              </Link>
+              <a
+                href="https://www.amd.com/en/processors/ryzen-thermal-solutions"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AMD Recommended CPU Coolers
+              </a>
             </li>
             <li>
-              <Link to="/blogs/journal/why-does-the-ratio-eight-cost-so-much">
-                Why does the Ratio Eight cost so much
-              </Link>
+              <a
+                href="https://www.amd.com/en/processors/ryzen-storage-solutions"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Partner PCIe® Gen Storage Drives
+              </a>
             </li>
             <li>
-              <Link to="/blogs/journal/comparing-the-ratio-eight-and-six">
-                Ratio Eight versus Ratio Six
-              </Link>
-            </li>
-            <li>
-              <Link to="/blogs/journal/adjusting-your-grind">
-                Adjusting your grind
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="links-list">
-          <h3 className="list-name">Support</h3>
-          <ul>
-            <li>
-              <Link to="/pages/contact-us">Contact Us</Link>
-            </li>
-            <li>
-              <Link to="/pages/warranty-request-form">Warranty</Link>
-            </li>
-            <li>
-              <Link to="/pages/return-request-form">Returns</Link>
-            </li>
-            <li>
-              <Link to="/collections/spare-parts">Spare Parts</Link>
-            </li>
-            <li>
-              <Link to="/pages/faqs">FAQs</Link>
-            </li>
-            <li>
-              <Link to="https://help.ratiocoffee.com">Help Articles</Link>
-            </li>
-            <li>
-              <Link to="/pages/accessbility">Accessiblity</Link>
-            </li>
-            <li>
-              <Link to="/policies/shipping-policy">Shipping Policy</Link>
+              <a
+                href="https://www.amd.com/en/processors/ryzen-5000-series"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AMD Ryzen™ 5000 Series Desktop Processors
+              </a>
             </li>
           </ul>
         </div>
         <div className="links-list">
-          <h3 className="list-name">Inside Ratio</h3>
+          <h3 className="list-name">Company</h3>
           <ul>
             <li>
-              <Link to="/pages/about">About Us</Link>
+              <a
+                href="https://www.amd.com/en/corporate.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                About AMD
+              </a>
             </li>
             <li>
-              <Link to="/pages/press-reviews">Press & Reviews</Link>
+              <a
+                href="https://www.amd.com/en/corporate/leadership.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Management Team
+              </a>
             </li>
             <li>
-              <Link to="/pages/wholesale">Wholesale Info</Link>
+              <a
+                href="https://www.amd.com/en/corporate-responsibility"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Corporate Responsibilty
+              </a>
             </li>
             <li>
-              <Link to="/pages/where-to-buy-ratio">Ratio Retailers</Link>
+              <a
+                href="https://careers.amd.com/careers-home"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Careers
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.amd.com/en/corporate/contact"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Contact Us
+              </a>
             </li>
           </ul>
         </div>
         <div className="links-list">
-          <h3 className="list-name">Great Coffee Everywhere</h3>
+          <h3 className="list-name">Community</h3>
           <ul>
             <li>
-              <Link to="/pages/office">Office</Link>
+              <a
+                href="https://community.amd.com/t5/support-forums/ct-p/supprtforums"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Support
+              </a>
             </li>
             <li>
-              <Link to="/pages/hotem">Hotel</Link>
+              <a
+                href="https://community.amd.com/t5/developers/ct-p/devgurus"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Developer
+              </a>
             </li>
             <li>
-              <Link to="/pages/restaurants">Restaurant</Link>
+              <a
+                href="https://community.amd.com/t5/red-team/ct-p/red-team"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Red Team
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="links-list">
+          <h3 className="list-name">News & Events</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.amd.com/en/newsroom.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Newsroom
+              </a>
             </li>
             <li>
-              <Link to="/pages/roaster">Roaster & Cafe</Link>
+              <a
+                href="https://www.amd.com/en/events"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Events
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.amd.com/en/corporate/newsroom-media"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Media Library
+              </a>
             </li>
           </ul>
         </div>
@@ -146,18 +200,40 @@ const Footer = () => {
           <h3>See the latest and follow us.</h3>
           <div>
             <p>
-              <Link to="https://www.facebook.com/ratiocoffeemachines">Fb</Link>
+              <a
+                href="http://www.facebook.com/amd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                F
+              </a>
             </p>
             <p>
-              <Link to="https://www.pinterest.it/ratiocoffee/_created/">P</Link>
+              <a
+                href="https://twitter.com/amd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                T
+              </a>
             </p>
             <p>
-              <Link to="https://www.instagram.com/ratiocoffee/">Insta</Link>
+              <a
+                href="https://www.instagram.com/amd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Insta
+              </a>
             </p>
             <p>
-              <Link to="https://www.youtube.com/channel/UCo-z46J2TXLLjKSTIyEPqXg?view_as=subscriber">
-                Yt
-              </Link>
+              <a
+                href="https://www.youtube.com/user/amd?sub_confirmation=1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                YT
+              </a>
             </p>
           </div>
         </div>

@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+#page-logo {
+    width: 10vw;
+}
+
 .nav-list, .user-options {
     list-style: none;
     display: flex;
@@ -20,15 +24,10 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
-    color: #2c2e2f;
-    /* background-color: red; */
     padding: 15px;
+    color: black;
 }
 
 .nav-link:hover, .user-link:hover {
-    color: #004f47;
-}
-
-.sale, .sale:hover {
-    color: #913025;
+    color: #fe6f29;
 }
