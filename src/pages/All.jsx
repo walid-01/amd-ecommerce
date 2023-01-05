@@ -6,7 +6,7 @@ const All = () => {
     <div id="lineup">
       <h1>AMD Processors</h1>
       <div className="lineup-list">
-        <Link to="/ryzen-five">
+        <Link to="/processor/five">
           <div className="lineup-item">
             <img
               className="lineup-img"
@@ -17,7 +17,7 @@ const All = () => {
             <button className="btn-white">Buy Now</button>
           </div>
         </Link>
-        <Link to="/ryzen-seven">
+        <Link to="/processor/seven">
           <div className="lineup-item">
             <img
               className="lineup-img"
@@ -28,7 +28,7 @@ const All = () => {
             <button className="btn-white">Buy Now</button>
           </div>
         </Link>
-        <Link to="/ryzen-nine">
+        <Link to="/processor/nine">
           <div className="lineup-item">
             <img
               className="lineup-img"

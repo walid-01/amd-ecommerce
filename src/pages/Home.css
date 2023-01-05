@@ -166,9 +166,6 @@ h1, h3, h5, p {
     margin: auto;
     height: 45vh;
     justify-content: space-between;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    border-bottom: #fe6f29 1px solid;
 }
 
 #comparsion-card {

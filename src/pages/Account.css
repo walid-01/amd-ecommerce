@@ -1,0 +1,10 @@
+#account {
+    background-color: rgb(214, 214, 214);
+    width: 25vw;
+    padding: 20px;
+    margin: auto;
+}
+
+#account > h1, #account > h2, #account > img{
+    margin: 7.5px;
+}

@@ -15,9 +15,9 @@ const Home = () => {
           <div id="card-container">
             <h1>The most advanced PC processor for gamers and creators</h1>
             <p className="subtitle">Change How You Game</p>
-            <button className="btn-orange">
-              <Link to="/all">Shop Now</Link>
-            </button>
+            <Link to="/all">
+              <button className="btn-orange">Shop Now</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Home = () => {
           performance.
         </p>
         <div className="lineup-list">
-          <Link to="/ryzen-five">
+          <Link to="/processor/five">
             <div className="lineup-item">
               <img
                 className="lineup-img"
@@ -46,7 +46,7 @@ const Home = () => {
               <button className="btn-white">Buy Now</button>
             </div>
           </Link>
-          <Link to="/ryzen-seven">
+          <Link to="/processor/seven">
             <div className="lineup-item">
               <img
                 className="lineup-img"
@@ -57,7 +57,7 @@ const Home = () => {
               <button className="btn-white">Buy Now</button>
             </div>
           </Link>
-          <Link to="/ryzen-nine">
+          <Link to="/processor/nine">
             <div className="lineup-item">
               <img
                 className="lineup-img"
@@ -135,9 +135,9 @@ const Home = () => {
             Not sure which processor is best for you? we can help you decide and
             choose whether for gaming, streaming or content creation
           </p>
-          <button className="btn-orange">
-            <Link to="/all">Compare Processors</Link>
-          </button>
+          <Link to="/all">
+            <button className="btn-orange">Compare Processors</button>
+          </Link>
         </div>
         <div id="comparison-img">
           <img

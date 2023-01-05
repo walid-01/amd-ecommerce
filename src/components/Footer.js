@@ -11,13 +11,13 @@ const Footer = () => {
           <h3 className="list-name">Shop</h3>
           <ul>
             <li>
-              <Link to="/ryzen-five">AMD Ryzen™ 5</Link>
+              <Link to="/processor/five">AMD Ryzen™ 5</Link>
             </li>
             <li>
-              <Link to="/ryzen-seven">AMD Ryzen™ 7</Link>
+              <Link to="/processor/seven">AMD Ryzen™ 7</Link>
             </li>
             <li>
-              <Link to="/ryzen-nine">AMD Ryzen™ 9</Link>
+              <Link to="/processor/nine">AMD Ryzen™ 9</Link>
             </li>
             <li>
               <Link to="/all">Shop All</Link>
@@ -182,7 +182,7 @@ const Footer = () => {
       </div>
       <div id="socials">
         <div id="newsletter">
-          <h3>Get the inside scoop on coffee culture & brewing tips.</h3>
+          <h3>Subscribe to our weekly newsletter to get updates</h3>
           <p>Please complete this required field.</p>
           <div id="newsletter-container">
             <input

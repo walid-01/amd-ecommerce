@@ -1,0 +1,62 @@
+#shopping-cart {
+    background-color: white;
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: 'Proxima Nova', sans-serif;
+    z-index: 2;
+}
+
+#cart-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fe702971;
+    padding: 25px;
+}
+
+#cart-header > h2 {
+    color: #fe6f29;
+}
+
+.btn-close {
+    border: 1px #fe6f29 solid;
+    background-color: white;
+    color: #fe6f29;
+    padding: 5px 7.5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    background-color: #fe6f29;
+    color: white;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+/* ----------- */
+#pay {
+    bottom: 0;
+    padding: 25px;
+    color: black;
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
