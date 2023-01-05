@@ -8,11 +8,13 @@ export function CartProvider({ children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const openCart = () => {
-    !isOpen && setIsOpen(true);
+    //!isOpen &&
+    setIsOpen(true);
     console.log("open");
   };
   const closeCart = () => {
-    isOpen && setIsOpen(false);
+    //isOpen &&
+    setIsOpen(false);
     console.log("close");
   };
 
@@ -58,7 +60,7 @@ export function CartProvider({ children }) {
       }}
     >
       {children}
-      <ShoppingCart />
+      <ShoppingCart isOpen={isOpen} />
     </CartContext.Provider>
   );
 }

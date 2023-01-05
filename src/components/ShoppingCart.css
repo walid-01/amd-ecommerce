@@ -10,6 +10,7 @@
 }
 
 #cart-header {
+    height: 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,18 +46,39 @@
     z-index: 1;
 }
 
+#cart-content {
+    display: flex;
+    height: 92%;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-
-/* ----------- */
 #pay {
     bottom: 0;
     padding: 25px;
     color: black;
 }
 
-#price {
+#total-price {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+#cart-checkout {
+    border: none;
+    background-color: #fe6f29;
+    color: white;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#cart-checkout:hover {
+    /* change to animation */
+    background-color: black;
+    color: #fe6f29;
 }

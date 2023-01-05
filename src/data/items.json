@@ -2,7 +2,7 @@
     "five": {
       "id": 1,
       "name": "AMD Ryzen 5 7600X",
-      "price": "$299.00",
+      "price": 299,
       "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/19-113-770-02.jpg",
       "desc": [
         "6-Core 4.7 GHz",
@@ -15,7 +15,7 @@
     "seven": {
       "id": 2,
       "name": "AMD Ryzen 7 7700X",
-      "price": "$344.99",
+      "price": 344.99,
       "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/19-113-768-01.jpg",
       "desc": [
         "8-Core 4.5 GHz",
@@ -28,7 +28,7 @@
     "nine": {
       "id": 3,
       "name": "AMD Ryzen 9 7900X",
-      "price": "$549.00",
+      "price": 549,
       "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/19-113-769-02.jpg",
       "desc": [
         "12-Core 4.7 GHz",
