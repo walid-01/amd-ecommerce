@@ -1,21 +1,21 @@
 import { useState, createContext } from "react";
 import ShoppingCart from "../components/ShoppingCart";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+// import processors from "../data/items.json";
 
 const CartContext = createContext();
 
 export function CartProvider({ children }) {
-  const [cartItems, setCartItems] = useState([]);
+  const [cartItems, setCartItems] = useLocalStorage("shopping-cart", []);
   const [isOpen, setIsOpen] = useState(false);
 
   const openCart = () => {
     //!isOpen &&
     setIsOpen(true);
-    console.log("open");
   };
   const closeCart = () => {
     //isOpen &&
     setIsOpen(false);
-    console.log("close");
   };
 
   const increaseCartQt = (id) => {
@@ -32,7 +32,7 @@ export function CartProvider({ children }) {
 
   const decreaseCartQt = (id) => {
     setCartItems((currentItems) => {
-      if (currentItems.find((item) => item.id === id)?.quantity == null)
+      if (currentItems.find((item) => item.id === id)?.quantity === 1)
         return currentItems.filter((item) => item.id !== id);
       else
         return currentItems.map((item) => {
@@ -48,6 +48,13 @@ export function CartProvider({ children }) {
     });
   };
 
+  // const calculatePrice = () => {
+  //   cartItems.reduce((total, cartItem) => {
+  //     const item = processors.find((i) => i.id === cartItem.id);
+  //     return total + (item?.price || 0) * cartItem.quantity;
+  //   }, 0);
+  // };
+
   return (
     <CartContext.Provider
       value={{
@@ -57,6 +64,7 @@ export function CartProvider({ children }) {
         removeFromCart,
         openCart,
         closeCart,
+        // calculatePrice,
       }}
     >
       {children}

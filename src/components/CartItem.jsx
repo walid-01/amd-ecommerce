@@ -1,17 +1,21 @@
 import { Link } from "react-router-dom";
 import "./CartItem.css";
 import processors from "../data/items.json";
+import { useContext } from "react";
+import CartContext from "../context/CartContext";
 
 const CartItem = ({ id, quantity }) => {
-  let name = "";
-  if (id === 1) name = "five";
-  else if (id === 2) name = "seven";
-  else name = "nine";
-  const item = processors[name];
+  const { increaseCartQt, decreaseCartQt } = useContext(CartContext);
+  // let name = "";
+  // if (id === 1) name = "five";
+  // else if (id === 2) name = "seven";
+  // else name = "nine";
+  // const item = processors[name];
+  const item = processors.find((i) => i.id === id);
 
   return (
     <li className="cart-item">
-      <Link to={"/processor/" + name}>
+      <Link to={"/processor/" + id}>
         <img
           className="cart-img"
           src="https://c1.neweggimages.com/ProductImageCompressAll1280/19-113-770-02.jpg"
@@ -22,7 +26,7 @@ const CartItem = ({ id, quantity }) => {
         <h3>{item.name}</h3>
         <div className="quantity">
           <div className="change-qt">
-            <button className="svg-button">
+            <button className="svg-button" onClick={() => decreaseCartQt(id)}>
               <svg className="svg" viewBox="0 0 20 20">
                 <path
                   fill="#444"
@@ -31,7 +35,7 @@ const CartItem = ({ id, quantity }) => {
               </svg>
             </button>
             <p className="qt-nb">{quantity}</p>
-            <button className="svg-button">
+            <button className="svg-button" onClick={() => increaseCartQt(id)}>
               <svg className="svg" viewBox="0 0 20 20">
                 <path
                   fill="#444"

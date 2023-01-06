@@ -7,22 +7,24 @@ import CartContext from "../context/CartContext";
 const Processor = () => {
   const { cpu } = useParams();
   const { increaseCartQt, openCart } = useContext(CartContext);
+  const id = cpu === "five" ? 1 : cpu === "seven" ? 2 : 3;
+  const item = processors.find((i) => i.id === id);
   return (
-    <div id="cpu" key={processors[cpu].id}>
-      <img id="cpu-img" src={processors[cpu].image} alt="AMD CPU" />
+    <div id="cpu" key={item.id}>
+      <img id="cpu-img" src={item.image} alt="AMD CPU" />
       <div id="cpu-card">
         <div id="cpu-container">
-          <h1>{processors[cpu].name}</h1>
-          <p id="price">{processors[cpu].price}</p>
+          <h1>{item.name}</h1>
+          <p id="price">${item.price}</p>
           <ul id="desc">
-            {processors[cpu].desc.map((d) => (
+            {item.desc.map((d) => (
               <li key={d}>{d}</li>
             ))}
           </ul>
           <button
             className="btn-orange"
             onClick={() => {
-              increaseCartQt(processors[cpu].id);
+              increaseCartQt(item.id);
               openCart();
             }}
           >
