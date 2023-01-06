@@ -4,6 +4,7 @@ import { useContext } from "react";
 import CartContext from "../context/CartContext";
 import CartItem from "./CartItem";
 import processors from "../data/items.json";
+import { Link } from "react-router-dom";
 
 const ShoppingCart = ({ isOpen }) => {
   const { closeCart, cartItems } = useContext(CartContext);
@@ -35,7 +36,11 @@ const ShoppingCart = ({ isOpen }) => {
                   }, 0)}
                 </h3>
               </div>
-              <button id="cart-checkout">Checkout</button>
+              <Link to="/checkout">
+                <button id="cart-checkout" onClick={() => closeCart()}>
+                  Checkout
+                </button>
+              </Link>
             </div>
           </div>
         </div>

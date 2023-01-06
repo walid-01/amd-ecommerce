@@ -6,11 +6,6 @@ import CartContext from "../context/CartContext";
 
 const CartItem = ({ id, quantity }) => {
   const { increaseCartQt, decreaseCartQt } = useContext(CartContext);
-  // let name = "";
-  // if (id === 1) name = "five";
-  // else if (id === 2) name = "seven";
-  // else name = "nine";
-  // const item = processors[name];
   const item = processors.find((i) => i.id === id);
 
   return (
@@ -22,7 +17,7 @@ const CartItem = ({ id, quantity }) => {
           alt="ryzen 5"
         />
       </Link>
-      <div>
+      <div className="cart-item-desc">
         <h3>{item.name}</h3>
         <div className="quantity">
           <div className="change-qt">
