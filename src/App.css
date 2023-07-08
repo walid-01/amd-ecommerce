@@ -1,13 +1,11 @@
 .App {
     font-family: 'Proxima Nova', sans-serif;
-    /* background-color: black; */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: white; # */
 }
 
 a {

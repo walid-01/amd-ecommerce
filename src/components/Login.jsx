@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import AccountContext from "../context/AccountContext";
 import { useContext, useEffect } from "react";
-import "./Login.css";
+import "../Styles/Login.css";
 import CartContext from "../context/CartContext";
 
 const Login = () => {

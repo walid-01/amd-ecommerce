@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import processors from "../data/items.json";
-import "./Processor.css";
+import "../Styles/Processor.css";
 import { useContext } from "react";
 import CartContext from "../context/CartContext";
 

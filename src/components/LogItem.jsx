@@ -1,4 +1,4 @@
-import "./LogItem.css";
+import "../Styles/LogItem.css";
 import { Link } from "react-router-dom";
 import processors from "../data/items.json";
 

@@ -4,7 +4,7 @@ import { useContext } from "react";
 import CartContext from "../context/CartContext";
 import CartItem from "../components/CartItem";
 import GooglePayButton from "@google-pay/button-react";
-import "./Checkout.css";
+import "../Styles/Checkout.css";
 import { Link } from "react-router-dom";
 import AccountContext from "../context/AccountContext";
 import { useEffect, useState } from "react";

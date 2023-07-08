@@ -1,6 +1,6 @@
 import AccountContext from "../context/AccountContext";
 import { useContext, useEffect } from "react";
-import "./Account.css";
+import "../Styles/Account.css";
 import { useState } from "react";
 import LogItem from "../components/LogItem";
 

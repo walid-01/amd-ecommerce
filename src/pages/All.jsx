@@ -1,4 +1,4 @@
-import "./All.css";
+import "../Styles/All.css";
 import { Link } from "react-router-dom";
 
 const All = () => {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./CartItem.css";
+import "../Styles/CartItem.css";
 import processors from "../data/items.json";
 import { useContext } from "react";
 import CartContext from "../context/CartContext";
