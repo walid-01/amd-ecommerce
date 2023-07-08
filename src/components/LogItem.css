@@ -1,0 +1,38 @@
+.log-order {
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px #fe6f29 solid;
+    padding: 30px;
+    width: 25vw;
+}
+
+.log-order h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.log-order h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.log-cpu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.log-img {
+    max-width: 100px;
+}
+
+.log-quantity {
+    display: flex;
+    flex-direction: row;
+    width: 14vw;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+

@@ -1,10 +1,23 @@
 #account {
-    background-color: rgb(214, 214, 214);
-    width: 25vw;
-    padding: 20px;
+    width: 60vw;
+    padding: 50px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    border: 1px solid #fe6f29;
 }
 
-#account > h1, #account > h2, #account > img{
-    margin: 7.5px;
+#account h2 {
+    font-weight: normal;
+}
+
+#account-info {
+    height: 100%;
+    margin-right: 50px;
+}
+
+#transactions{
+    height: 100%;
 }

@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 const ShoppingCart = ({ isOpen }) => {
   const { closeCart, cartItems } = useContext(CartContext);
+  const hasItems = cartItems.length > 0;
 
   if (isOpen)
     return (
@@ -19,30 +20,37 @@ const ShoppingCart = ({ isOpen }) => {
               X
             </button>
           </div>
-          <div id="cart-content">
-            <ul id="cart-items">
-              {cartItems.map((item) => (
-                <CartItem key={item.id} {...item} />
-              ))}
-            </ul>
-            <div id="pay">
-              <div id="total-price">
-                <h3>Total to pay:</h3>
-                <h3>
-                  $
-                  {cartItems.reduce((total, cartItem) => {
-                    const item = processors.find((i) => i.id === cartItem.id);
-                    return total + (item?.price || 0) * cartItem.quantity;
-                  }, 0)}
-                </h3>
+          {hasItems && (
+            <div id="cart-content">
+              <ul id="cart-items">
+                {cartItems.map((item) => (
+                  <CartItem key={item.id} {...item} />
+                ))}
+              </ul>
+              <div id="pay">
+                <div id="total-price">
+                  <h3>Total to pay:</h3>
+                  <h3>
+                    $
+                    {cartItems.reduce((total, cartItem) => {
+                      const item = processors.find((i) => i.id === cartItem.id);
+                      return total + (item?.price || 0) * cartItem.quantity;
+                    }, 0)}
+                  </h3>
+                </div>
+                <Link to="/checkout">
+                  <button id="cart-checkout" onClick={() => closeCart()}>
+                    Checkout
+                  </button>
+                </Link>
               </div>
-              <Link to="/checkout">
-                <button id="cart-checkout" onClick={() => closeCart()}>
-                  Checkout
-                </button>
-              </Link>
             </div>
-          </div>
+          )}
+          {!hasItems && (
+            <h3 style={{ textAlign: "center", marginTop: "100%" }}>
+              Cart is empty
+            </h3>
+          )}
         </div>
         <div id="overlay" onClick={() => closeCart()}></div>
       </>

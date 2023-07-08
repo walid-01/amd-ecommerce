@@ -1,0 +1,270 @@
+/* Common */
+h1, h3, h5, p {
+    line-height: 1.4;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.mini-subtitle {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.btn-green {
+    border: none;
+    background-color: #004f47;
+    color: white;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    /* fix: Will be changed to animation */
+    background-color: white;
+    color: #004f47;
+}
+
+.btn-white {
+    border: 1px #004f47 solid;
+    background-color: white;
+    color: #004f47;
+    padding: 14px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: #004f47;
+    color: white;
+}
+/* Introduction */
+#intro {
+    display: flex;
+    justify-content: space-between;
+    height: 69.5vh;
+}
+
+#intro-img {
+    display: block;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+#intro-card {
+    max-width: 39.2%;
+    margin-left: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f3ee;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+}
+
+#card-container > h1 {
+    font-size: 45px;
+}
+
+/* Line up */
+#lineup {
+    width: 66vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lineup > p {
+    width: 60%;
+    margin: 10px auto 50px auto;
+}
+
+.lineup-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lineup-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineup-item > h3 {
+    margin: 5px auto 10px auto;
+}
+
+/* Qualities */
+#qualities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66vw;
+    margin: auto;
+}
+
+#qualities {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.quality {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality > img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.quality > p {
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    font-size: 16px;
+}
+
+/* Comparison */
+#comparison-container {
+    display: flex;
+    flex-direction: row;
+    width: 66vw;
+    margin: auto;
+    height: 45vh;
+    justify-content: space-between;
+}
+
+#comparsion-card {
+    background-color: #f7f3ee;
+    height: 100%;
+    max-width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#comparsion-card > h3 {
+    margin: 7.5px 0 15px 0;
+}
+
+#comparsion-card > p {
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+#comparison-img {
+    display: block;
+    height: 100%;
+    max-width: 49%;
+}
+
+#comparison-img > img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Setups */
+#setups-container {
+    display: flex;
+    flex-direction: column;
+    width: 66vw;
+    margin: 100px auto;
+    align-items: flex-start;
+}
+
+#setups {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+#setups > a {
+    margin-right: 30px;
+}
+
+.setup {
+    background-color: #f7f3ee;
+}
+
+.setup:hover {
+    /*fix: color changes on hover */
+}
+
+.setup > img {
+    object-fit: cover;
+    width: 390px;
+    height: 400px;
+}
+
+.setup > div {
+    padding: 20px;
+}
+
+/* Latest events */
+#latest {
+    width: 66vw;
+    border-top: #f7f3ee 1px solid;
+    border-bottom: #f7f3ee 1px solid;
+    padding: 100px 0;
+    margin: 60px auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.event > p {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    padding: 15px 0 5px 0;
+}
+
+.event img {
+    object-fit: cover;
+    width: 290px;
+    height: 190px;
+}
