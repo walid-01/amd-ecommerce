@@ -5,7 +5,6 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 const AccountContext = createContext();
 
 export function AccountProvider({ children }) {
-  //useState({})
   const [user, setUser] = useLocalStorage("user", {});
   const handleCallbackResponse = (response) => {
     // console.log("Encoded JWT ID token: " + response.credential);
