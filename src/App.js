@@ -19,11 +19,11 @@ function App() {
           <div className="App">
             <Navbar />
             <Routes>
-              <Route path="/" exact element={<Home />} />
-              <Route path="/all" exact element={<All />} />
-              <Route path="/processor/:cpu" exact element={<Processor />} />
-              <Route path="/account" exact element={<Account />} />
-              <Route path="/checkout" exact element={<Checkout />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/all" element={<All />} />
+              <Route path="/processor/:cpu" element={<Processor />} />
+              <Route path="/account" element={<Account />} />
+              <Route path="/checkout" element={<Checkout />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
